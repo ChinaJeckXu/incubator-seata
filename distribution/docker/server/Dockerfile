@@ -28,7 +28,7 @@
 FROM eclipse-temurin:8u422-b05-jdk
 
 # set label
-LABEL maintainer="Seata <seata.apache.org>"
+LABEL maintainer="chinajeckxu <chinajeckxu@163.com>"
 
 WORKDIR /$BASE_DIR
 

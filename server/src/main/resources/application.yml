@@ -17,6 +17,10 @@
 
 server:
   port: 7091
+  tongweb:
+    license:
+      type: file
+      path: /var/tongweb/license/license.dat
 
 spring:
   application:

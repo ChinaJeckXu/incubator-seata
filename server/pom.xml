@@ -103,6 +103,16 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.tongweb.springboot</groupId>
+            <artifactId>tongweb-spring-boot-starter-2.x</artifactId>
+            <version>7.0.E.8_P1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.tongweb.springboot</groupId>
+            <artifactId>tongweb-spring-boot-websocket-2.x</artifactId>
+            <version>7.0.E.8_P1</version>
+        </dependency>
+        <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-core</artifactId>
             <version>${tomcat-embed.version}</version>
