@@ -105,12 +105,12 @@
         <dependency>
             <groupId>com.tongweb.springboot</groupId>
             <artifactId>tongweb-spring-boot-starter-2.x</artifactId>
-            <version>7.0.E.8_P1</version>
+            <version>8.0.E.9_P4</version>
         </dependency>
         <dependency>
             <groupId>com.tongweb.springboot</groupId>
             <artifactId>tongweb-spring-boot-websocket-2.x</artifactId>
-            <version>7.0.E.8_P1</version>
+            <version>8.0.E.9_P4</version>
         </dependency>
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>

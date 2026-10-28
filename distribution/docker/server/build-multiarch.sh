@@ -2,8 +2,8 @@
 # 构建多平台（linux/amd64, linux/arm64）Nacos 镜像
 
 # ---------- 设置代理 ----------
-export HTTP_PROXY="http://127.0.0.1:7890"
-export HTTPS_PROXY="http://127.0.0.1:7890"
+export HTTP_PROXY="http://127.0.0.1:9567"
+export HTTPS_PROXY="http://127.0.0.1:9567"
 export NO_PROXY="localhost,127.0.0.1,.local"
 
 # 某些工具也识别小写形式
@@ -22,6 +22,7 @@ docker buildx inspect --bootstrap
 # 构建并推送多平台镜像
 docker buildx build \
   --platform linux/amd64,linux/arm64 \
+  --provenance=false --sbom=false --output type=image,oci-mediatypes=false \
   -t ${IMAGE_REPO}:${TAG} \
   --push .
 
